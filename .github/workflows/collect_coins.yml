@@ -1,8 +1,8 @@
-name: Collect HTV coins
-on:
-    schedule:
-      - cron: "0 */3 * * *"
-    workflow_dispatch:
+#name: Collect HTV coins
+#on:
+   # schedule:
+      #- cron: "0 */3 * * *"
+   # workflow_dispatch:
 
 env:
   HTV_EMAIL: "${{ secrets.HTV_EMAIL }}"
